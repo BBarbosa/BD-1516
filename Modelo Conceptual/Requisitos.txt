@@ -1,0 +1,16 @@
+Bases de Dados
+2015 / 2016
+
+Hipermercado
+Levantamento de Requisitos
+
+(1) Há um funcionário com estatuto de administrador.
+(2) Um funcionário trabalha num horário específico.
+(3) Um funcionário trabalha numa secção.
+(4) Existe um funcionário responsável por uma secção.
+(5) Uma secção contém vários produtos.
+(6) Os produtos estão armazenados num determinado local no armazém.
+(7) Vários produtos são comprados por vários clientes.
+(8) Os produtos são fornecidos pelos fornecedores.
+(9) Saber o histórico de compras de um cliente.
+(10) Poder consultar todos os abastecimentos.
