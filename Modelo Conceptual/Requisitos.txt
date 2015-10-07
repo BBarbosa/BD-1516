@@ -2,10 +2,11 @@ Bases de Dados
 2015 / 2016
 
 Hipermercado
-Levantamento de Requisitos
+Levantamento de Requisitos v2
 
-(1) Há um funcionário com estatuto de administrador.
-(2) Um funcionário trabalha num horário específico.
+(1) Há um funcionário com estatuto de administrador e responsável pela gestão
+dos outros funcionários.
+(2) Um funcionário tem um horário específico.
 (3) Um funcionário trabalha numa secção.
 (4) Existe um funcionário responsável por uma secção.
 (5) Uma secção contém vários produtos.
@@ -14,3 +15,5 @@ Levantamento de Requisitos
 (8) Os produtos são fornecidos pelos fornecedores.
 (9) Saber o histórico de compras de um cliente.
 (10) Poder consultar todos os abastecimentos.
+(11) A partir das compras dos clientes (vendas do hipermercado) e dos
+abastecimentos conseguir fazer um balanço todos os meses.
