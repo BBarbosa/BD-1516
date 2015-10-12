@@ -10,10 +10,11 @@ dos outros funcionários.
 (3) Um funcionário trabalha numa secção.
 (4) Existe um funcionário responsável por uma secção.
 (5) Uma secção contém vários produtos.
-(6) Os produtos estão armazenados num determinado local no armazém.
-(7) Vários produtos são comprados por vários clientes.
-(8) Os produtos são fornecidos pelos fornecedores.
-(9) Saber o histórico de compras de um cliente.
-(10) Poder consultar todos os abastecimentos.
-(11) A partir das compras dos clientes (vendas do hipermercado) e dos
+(6) Numa seccção existe uma determinada quantidade de um produto
+(7) Os produtos estão armazenados num determinado local no armazém.
+(8) Vários produtos são comprados por vários clientes.
+(9) Os produtos são fornecidos pelos fornecedores.
+(10) Saber o histórico de compras de um cliente.
+(11) Poder consultar todos os abastecimentos.
+(12) A partir das compras dos clientes (vendas do hipermercado) e dos
 abastecimentos conseguir fazer um balanço todos os meses.
