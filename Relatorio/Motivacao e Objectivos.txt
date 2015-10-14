@@ -7,4 +7,15 @@ da unidade curricular de Base de Dados advém pelo facto de um hipermercado ser
 quase a nossa "primeira opção" quando precisamos de "reabastecer" a nossa casa ou
 mesmo até, quando precisamos de alguma coisa. Na verdade, estes estabelecimentos
 têm uma enorme diversidade de produtos, desde alimentos, equipamentos tecnológicos,
-vestuário, etc, o que os torna bastantes úteis. Todavia, 
+vestuário, etc, o que os torna bastantes úteis. Todavia, é um grande desafio
+garantir a sua sustentabilidade e isso também despertou em nós um interesse
+especial porque reconhecemos que não é uma tarefa fácil. Actualmente vivemos num
+mundo bastante informatizado: onde quer que vamos, a informática está sempre
+presente. O caso dos hipermercados não é excepção. Seria totalmente impensável,
+nos dias de hoje, gerir um hipermercado sem recorrer a uma ferramenta informática
+que suporte e ajude no controlo de todas as vertentes do mesmo. Nesta medida, os
+nossos objectivos viam em desenvolver uma aplicação (Sistema de Bases de Dados)
+tal que, para além de poder informar o gestor do hipermercado sobre as quantidades
+de cada produto no armazém ou nas prateleiras, possa também alertá-lo atempadamente
+de forma a evitar quebras ou rupturas de stock bem como enventuais excesssos de
+mercadoria e assim tirar o lucro máximo do negócio.
