@@ -1,0 +1,8 @@
+14-10-2015
+
+Motivação e Objectivos
+
+Por detrás de um hipermercado está implementado um grande processo de logística.
+Ao contrário de uma pequena mercearia, onde existe um número reduzido de produtos
+bem como um funcionário (às vezes, o proprietário), num hipermercado é necessário
+haver muito
