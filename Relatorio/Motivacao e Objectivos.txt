@@ -2,7 +2,9 @@
 
 Motivação e Objectivos
 
-Por detrás de um hipermercado está implementado um grande processo de logística.
-Ao contrário de uma pequena mercearia, onde existe um número reduzido de produtos
-bem como um funcionário (às vezes, o proprietário), num hipermercado é necessário
-haver muito
+A maior parte da motivação para termos escolhido este tema para o nosso projeto
+da unidade curricular de Base de Dados advém pelo facto de um hipermercado ser
+quase a nossa "primeira opção" quando precisamos de "reabastecer" a nossa casa ou
+mesmo até, quando precisamos de alguma coisa. Na verdade, estes estabelecimentos
+têm uma enorme diversidade de produtos, desde alimentos, equipamentos tecnológicos,
+vestuário, etc, o que os torna bastantes úteis. Todavia, 
