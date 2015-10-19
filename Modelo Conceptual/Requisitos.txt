@@ -1,4 +1,4 @@
-Bases de Dados
+﻿Bases de Dados
 2015 / 2016
 
 Hipermercado
@@ -6,12 +6,12 @@ Levantamento de Requisitos v2
 
 (1) Há um funcionário com estatuto de administrador e responsável pela gestão
 dos outros funcionários.
-(2) Um funcionário tem um horário específico.
-(3) Um funcionário trabalha numa secção.
-(4) Existe um funcionário responsável por uma secção.
-(5) Uma secção contém vários produtos.
+(2) Um funcionário trabalha H horas em S secções em determinada data.
+(3) Vários funcionários trabalham em várias secções.
+(4) Existe um funcionário responsável por uma ou mais secções.
+(5) Várias secção contêm vários produtos.
 (6) Numa seccção existe uma determinada quantidade de um produto
-(7) Os produtos estão armazenados num determinado local no armazém.
+(x) Os produtos estão armazenados num determinado local no armazém.
 (8) Vários produtos são comprados por vários clientes.
 (9) Os produtos são fornecidos pelos fornecedores.
 (10) Saber o histórico de compras de um cliente.
