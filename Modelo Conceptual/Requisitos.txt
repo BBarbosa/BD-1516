@@ -18,3 +18,4 @@ dos outros funcionários.
 (11) Poder consultar todos os abastecimentos.
 (12) A partir das compras dos clientes (vendas do hipermercado) e dos
 abastecimentos conseguir fazer um balanço todos os meses.
+(13) Vários funcionários podem ter várias funções.
