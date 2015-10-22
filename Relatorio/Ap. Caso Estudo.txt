@@ -5,12 +5,29 @@ Aplicação do Caso de Estudo
 Por detrás de um hipermercado está implementado um grande processo de logística.
 Ao contrário de uma pequena mercearia, onde existe um número reduzido de produtos
 bem como um funcionário (às vezes, o próprio proprietário), num hipermercado é
-necessário haver muita mais precisão no que toca à organização de todos os
+necessário haver maior precisão no que toca à organização de todos os
 elementos nele intervenientes. Essa precisão engloba a gestão das compras de
 produtos aos fornecedores, das vendas dos produtos aos clientes, passando pela
 manutenção do espaço, salários dos funcionários, entre outros factores. O que
 acontece é que estamos a falar em grandes volumes não só de dados mas também
 de inventário e dinheiro.
+Portanto, a necessidade de existir um sistema que possa ajudar o gestor do
+hipermercado a gerir o mesmo da forma mais rentável possível, é uma questão que
+deve ter surgido logo após do aparecimentos dos primeiros hipermercados.
+Contudo, hoje em dia esses sistemas não são novidade mas desempenham um papel
+fundamental no que diz respeito à otimização dos lucros de um estabelecimento
+como o que acabamos de referir. 
+
+
+Modifiquei algumas coisas no texto(95)
+
+Os hipermercados são infraestruturas cada vez mais requisitadas pela população dadas
+as condições que estes reunem. Estes espaços conseguem concentrar uma grande quantidade 
+e diversidade de produtos, das mais variadas marcas e preços.
+Por detrás dos hipermercados está implementado um grande processo de logística onde o rigor e a
+precisão são essenciais à organização de todos os elementos nele intervenientes.
+Essa precisão engloba a gestão das compras de produtos aos fornecedores, das vendas dos produtos
+aos clientes, passando pela manutenção do espaço, salários dos funcionários, entre outros factores. 
 Portanto, a necessidade de existir um sistema que possa ajudar o gestor do
 hipermercado a gerir o mesmo da forma mais rentável possível, é uma questão que
 deve ter surgido logo após do aparecimentos dos primeiros hipermercados.
