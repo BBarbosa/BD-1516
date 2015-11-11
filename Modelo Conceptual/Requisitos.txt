@@ -5,17 +5,40 @@ Hipermercado
 Levantamento de Requisitos v2
 
 (1) Há um funcionário com estatuto de administrador e responsável pela gestão
-dos outros funcionários.
-(2) Um funcionário trabalha H horas em S secções em determinada data.
-(3) Vários funcionários trabalham em várias secções.
-(4) Existe um funcionário responsável por uma ou mais secções.
-(5) Várias secção contêm vários produtos.
-(6) Numa seccção existe uma determinada quantidade de um produto
+dos outros funcionários. --
+(2) Um funcionário trabalha H horas em S secções em determinada data.--
+(3) Vários funcionários trabalham em várias secções.--
+(4) Existe um funcionário responsável por uma ou mais secções.--
+(5) Várias secção contêm vários produtos.--
+(6) Numa seccção existe uma determinada quantidade de um produto--
 (x) Os produtos estão armazenados num determinado local no armazém.
-(8) Vários produtos são comprados por vários clientes.
-(9) Os produtos são fornecidos pelos fornecedores.
+(8) Vários produtos são comprados por vários clientes.--
+(9) Os produtos são fornecidos pelos fornecedores.--
 (10) Saber o histórico de compras de um cliente.
 (11) Poder consultar todos os abastecimentos.
 (12) A partir das compras dos clientes (vendas do hipermercado) e dos
-abastecimentos conseguir fazer um balanço todos os meses.
-(13) Vários funcionários podem ter várias funções.
+abastecimentos conseguir fazer um balanço todos os meses. x
+(13) Vários funcionários podem ter várias funções.--
+
+
+
+Um supermercado é uma infraestutura que necessita de funcionários para o seu funcionamento.
+Cada funcionário tem uma ou várias funções, podendo para isso trabalhar numa 
+ou em várias secções, num dado número de horas de dado dia. Para a gerir os funcionários existe um administrador, que é igualmente um
+funcionário mas com esta função adicional. Para além disso existem também funcionários aos quais lhes foram incutidas a responsabilidade
+da gestão de uma ou várias secções.
+Em cada secção do supemercado existe uma determinada quantidade de diversos produtos. Uma entidade imprescindivel
+são os fornecedores que, num dado dia, fornecem uma determinada quantidade a um custo resultante de um relação 
+preço-quantidade. Por fim, depois de todos os requisitos cumpridos, os clientes efetuam a compra destes produtos.
+Com este sistema de base de dados será possível consultar o histórico de compras dos clientes, assim como, consultar todos os abastecimentos 
+feitos pelo supermercado.
+Após a análise dos requisitos aqui mencionados, foi possível concluir que as entidades em baixo apresentadas são as fundamentais 
+para este projeto:
+-Funcionário
+-Função
+-Secção
+-Produto
+-Fornecedor
+-Cliente
+
+
