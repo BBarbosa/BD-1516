@@ -91,7 +91,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `trabalho`.`Produto` (
   `idProduto` INT NOT NULL AUTO_INCREMENT,
   `Nome` VARCHAR(45) NOT NULL unique,
-  `PrecoVenda` DECIMAL(10,4) NOT NULL,
+  `PrecoVenda` DECIMAL(10,4) NOT NULL check(PrecoVenda>0),
   `Stock` INT NOT NULL,
   PRIMARY KEY (`idProduto`))
 ENGINE = InnoDB;
@@ -181,7 +181,7 @@ CREATE TABLE IF NOT EXISTS `trabalho`.`Fornecedor_Produto` (
   `Produto_idProduto` INT  NULL,
   `Quantidade` INT NOT NULL check(Quantidade>0),
   `Data` DATE NOT NULL,
-  `PrecoCompra` DECIMAL(10,4) NOT NULL,
+  `PrecoCompra` DECIMAL(10,4) NOT NULL check (PrecoCompra>0),
   INDEX `fk_Fornecedor_has_Produto_Produto1_idx` (`Produto_idProduto` ASC),
   INDEX `fk_Fornecedor_has_Produto_Fornecedor1_idx` (`Fornecedor_NIF` ASC),
   PRIMARY KEY (`idFornecedor_Produto`),
@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `trabalho`.`Cliente_Produto` (
   `Produto_idProduto` INT  NULL,
   `Data` DATE NOT NULL,
   `Quantidade` INT NOT NULL check(Quantidade>0),
-  `PrecoCompra` DECIMAL(10,4) NULL,
+  `PrecoCompra` DECIMAL(10,4) NULL check (PrecoCompra>0),
   PRIMARY KEY (`idCompra`),
   INDEX `fk_Cliente_has_Produto_Produto1_idx` (`Produto_idProduto` ASC),
   INDEX `fk_Cliente_has_Produto_Cliente1_idx` (`Cliente_NIF` ASC),
