@@ -11,7 +11,6 @@ update produto
 set Stock=Stock+new.Quantidade
 where new.Produto_idProduto=idProduto;
 
-
 end $$
 
 INSERT INTO Fornecedor_Produto
