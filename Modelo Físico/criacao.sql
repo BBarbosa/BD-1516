@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `trabalho`.`Produto` (
   `idProduto` INT NOT NULL AUTO_INCREMENT,
   `Nome` VARCHAR(45) NOT NULL unique,
   `PrecoVenda` DECIMAL(10,4) NOT NULL check(PrecoVenda>0),
-  `Stock` INT NOT NULL check(Stock>0),
+  `Stock` INT NOT NULL check(Stock>=0),
   PRIMARY KEY (`idProduto`))
 ENGINE = InnoDB;
 
@@ -155,7 +155,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `trabalho`.`Produto_Seccao` (
   `Produto_idProduto` INT NOT NULL,
   `Seccao_idSeccao` INT NOT NULL,
-  `Quantidade` INT NOT NULL check(Quantidade>0),
+  `Quantidade` INT NOT NULL check(Quantidade>=0),
   PRIMARY KEY (`Produto_idProduto`, `Seccao_idSeccao`),
   INDEX `fk_Produto_has_Seccao_Seccao1_idx` (`Seccao_idSeccao` ASC),
   INDEX `fk_Produto_has_Seccao_Produto1_idx` (`Produto_idProduto` ASC),
