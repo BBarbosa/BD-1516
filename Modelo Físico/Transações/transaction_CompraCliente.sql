@@ -13,7 +13,6 @@ declare erro bool default 0;
 declare continue handler for sqlexception set erro=1;
 
 start transaction;
-
 select PrecoVenda into precoTmp
 from produto
 where idProduto=produtoComprado;
@@ -35,18 +34,20 @@ if(stockTmp>quantidadeComprada) then
 		update Produto_Seccao
 		set Quantidade = Quantidade - quantidadeComprada
 		where Produto_idProduto = produtoComprado;
-	end if;
+	else 
+		update Produto_Seccao
+		set Quantidade = 0
+		where Produto_idProduto = produtoComprado;
+    end if;
 	
     update produto
 	set Stock=Stock-quantidadeComprada
 	where idProduto=produtoComprado;
-
 end if;
 
 if erro then rollback; 
 else commit;
 end if;
-
 END$$
 
 

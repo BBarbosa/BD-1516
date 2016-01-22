@@ -11,13 +11,16 @@ declare erro bool default 0;
 
 declare continue handler for sqlexception set erro=1;
 
+start transaction;
+
 INSERT INTO Fornecedor_Produto
 	(idFornecedor_Produto,Fornecedor_NIF,Produto_idProduto,Quantidade, Data, PrecoCompra)
 	Values
 	(idFornecedor_Produto,fornecedor,produto,quantidade,now(),preco);
 
 update produto
-set Stock= Stock+quantidade;
+set Stock= Stock+quantidade
+where idProduto = produto;
 
 update Produto_Seccao as ps
 set ps.Quantidade = ps.Quantidade + quantidade
